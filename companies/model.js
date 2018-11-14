@@ -6,6 +6,12 @@ const Company = sequelize.define('companies', {
     type: Sequelize.STRING,
     allowNull: false
   },
+
+  companyId: {
+    type: Sequelize.INTEGER,
+    field: 'company_id'
+  },
+
   foundingYear: {
     type: Sequelize.INTEGER,
     field: 'founding_year',
@@ -17,5 +23,6 @@ const Company = sequelize.define('companies', {
   timestamps: false,
   tableName: 'companies'
 })
+
 
 module.exports = Company
