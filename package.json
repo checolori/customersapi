@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "private": true,
+  "scripts": {
+    "start": "node ."
+  },
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
